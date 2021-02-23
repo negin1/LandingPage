@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Arvo', serif;
 }
 
 ul,
@@ -63,16 +63,13 @@ header {
   padding: 35px 100px 0;
 }
 
-header h2 {
-  font-family: 'Quicksand', sans-serif;
-}
-
 header nav {
   display: flex;
 }
 
 header nav li {
   margin: 0 15px;
+  font-size: 22px;
 }
 
 header nav li:first-child {
@@ -131,19 +128,17 @@ header nav li:last-child {
 }
 
 .hero h1 {
-  font: bold 60px 'Open Sans', sans-serif;
+  font-size: 60px;
   margin-bottom: 15px;
 }
 
 .hero h3 {
-  font: normal 28px 'Open Sans', sans-serif;
+  font-size: 28px;
   margin-bottom: 40px;
 }
 
 .title {
-  color: #414a4f;
-  text-transform: capitalize;
-  font: bold 32px 'Open Sans', sans-serif;
+  font-size: 32px;
   margin-bottom: 35px;
   text-align: center;
 }
@@ -169,8 +164,7 @@ header nav li:last-child {
   margin-bottom: 35px;
   padding: 0 20px;
   line-height: 2;
-  font-size: 2px;
-  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
 }
 
 .img-area {
@@ -211,7 +205,7 @@ header nav li:last-child {
   margin-bottom: 35px;
   padding: 0 20px;
   line-height: 2;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .app-wrapper {
@@ -233,16 +227,16 @@ header nav li:last-child {
 
 .app-article h3 {
   text-align: center;
-  padding: 5px 5px;
-  font-size: 15px;
-  font-family: 'Roboto Slab', serif;
+  padding: 20px 5px;
+  font-size: 20px;
 }
 
-.app-img {
+.app-article p {
   text-align: center;
+  padding: 20px 5px;
+  font-size: 18px;
 }
-
-.article-box h3 {
+.app-img {
   text-align: center;
 }
 
